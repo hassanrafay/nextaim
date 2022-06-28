@@ -1,8 +1,12 @@
 import React from 'react';
-import { Button } from '@mui/material';
+import Table from './components/Table';
 
 function App() {
-  return <Button>Hello!</Button>;
+  return (
+    <div>
+      <Table />
+    </div>
+  );
 }
 
 export default App;

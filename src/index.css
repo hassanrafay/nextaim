@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+
+.common-typography {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.sys-typo {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.head-cell-style {
+  padding: 2px;
+  padding-bottom: 20px;
+  color: #767676;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.first-cell-style {
+  padding-top: 17px;
+  padding-bottom: 15px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.body-cell-style {
+  padding: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.cell-border {
+  margin-right: 6px;
+  display: inline-block;
+  width: 2px;
+  height: 14px;
+  background-color: #c9c9c9;
+}
+
+.high-radio {
+  margin-right: 17px;
+  width: 83px;
+  color: #ff4a4a;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 5px 6px;
+  text-align: center;
+  background-color: #ffcdd2;
+  border-radius: 2px;
+}
+
+.prohibited-radio {
+  width: 83px;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 5px 6px;
+  text-align: center;
+  background-color: #e0e0e0;
+  border-radius: 2px;
+}
+
+.comment-box {
+  padding: 8px;
+  width: 464px;
+  border: 1px solid #9c9c9c;
+  border-bottom: 2px solid #0078d6;
+  background-color: #f8f8f8;
+}
+
+.comment-box-typo-1 {
+  margin-bottom: 3px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.comment-box-typo-2 {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  font-size: 400;
+}
+
+.collapse-view-btn {
+  cursor: pointer;
+  color: #0078d6;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.03px;
+}
