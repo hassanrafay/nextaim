@@ -31,7 +31,7 @@ import {
   KeyboardArrowDown,
   PermContactCalendarOutlined
 } from '@mui/icons-material';
-import { RadioType, Person, ListOfRecords } from '../types/table.d';
+import { RadioType, Person, ListOfRecords } from '../types/table';
 
 // For Radio stylings
 const BpIcon = styled('span')(({ theme }) => ({
@@ -101,7 +101,7 @@ const BpRadio: FunctionComponent<RadioType> = (
   );
 };
 
-const BasicTable: FunctionComponent = (): ReactElement => {
+const ClientTable: FunctionComponent = (): ReactElement => {
   const [data, setData] = useState<Person | null>(null);
   const [expended, setExpended] = useState<boolean | undefined>(false);
   const [value, setValue] = useState<string>('high');
@@ -456,4 +456,4 @@ const BasicTable: FunctionComponent = (): ReactElement => {
     </Container>
   );
 };
-export default BasicTable;
+export default ClientTable;
