@@ -31,7 +31,7 @@ import {
   KeyboardArrowDown,
   PermContactCalendarOutlined
 } from '@mui/icons-material';
-import { RadioType, Person, ListOfRecords } from '../types/table';
+import { RadioType, Person, ListOfRecords } from '../types/table.d';
 
 // For Radio stylings
 const BpIcon = styled('span')(({ theme }) => ({
